@@ -13,8 +13,28 @@ html, body {
     text-align: center; }
     #support > .row > .container > .col-md-4 > i {
       color: white;
-      margin-left: 30px;
+      margin-left: 40px;
       margin-top: 15px;
       cursor: pointer; }
+
+#menu > .container {
+  height: 95px; }
+  #menu > .container > .row {
+    height: 100%; }
+    #menu > .container > .row > .col-md-3 > #logo {
+      padding: 28px 0; }
+    #menu > .container > .row > .col-md-8 > .menu {
+      padding: 35px 0; }
+      #menu > .container > .row > .col-md-8 > .menu > a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        margin-right: 35px;
+        margin-left: 10px;
+        font-size: 15px;
+        transition: all .3s ease; }
+      #menu > .container > .row > .col-md-8 > .menu > a:hover {
+        color: #1FA7EC; }
 
 /*# sourceMappingURL=style.css.map */

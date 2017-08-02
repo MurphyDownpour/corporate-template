@@ -24,9 +24,41 @@ html, body{
 				text-align: center;
 				>i{
 					color: white;
-					margin-left: 30px;
+					margin-left: 40px;
 					margin-top: 15px;
 					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+#menu{
+	>.container{
+		height: 95px;
+		>.row{
+			height: 100%;
+			>.col-md-3{
+				>#logo{
+					padding: 28px 0;
+				}
+			}
+			>.col-md-8{
+				>.menu{
+					padding: 35px 0;
+					>a{
+						text-transform: uppercase;
+						text-decoration: none;
+						color: black;
+						font-weight: 700;
+						margin-right: 35px;
+						margin-left: 10px;
+						font-size: 15px;
+						transition: all .3s ease;
+					}
+					>a:hover{
+						color: $mainColor;
+					}
 				}
 			}
 		}
