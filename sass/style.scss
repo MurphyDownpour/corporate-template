@@ -1,0 +1,34 @@
+$mainColor: #1FA7EC;
+$mainFont: 'Source Sans Pro', sans-serif;
+
+
+html, body{
+	font-family: $mainFont;
+}
+
+// Support section. Social links and contacts
+#support{
+	>.row{
+		height: 45px;
+		background-color: $mainColor;
+		>.container{
+			>.col-md-6{
+				>i, p{
+					display: inline-block;
+					color: white;
+					margin-right: 10px;
+					margin-top: 12px;
+				}
+			}
+			>.col-md-4{
+				text-align: center;
+				>i{
+					color: white;
+					margin-left: 30px;
+					margin-top: 15px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
