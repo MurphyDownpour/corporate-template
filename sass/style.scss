@@ -6,6 +6,11 @@ html, body{
 	font-family: $mainFont;
 }
 
+*{
+	padding: 0;
+	margin: 0;
+}
+
 // Support section. Social links and contacts
 #support{
 	>.row{
@@ -152,16 +157,20 @@ html, body{
 	position: relative;
 	background-attachment: fixed;
 	height: 765px;
+
 	>.overlay{
 		background-color: rgba(255, 255, 255, 0.9);
 		height: 100%;
 		position: absolute;
 		top: 0;
 		width: 100%;
+
 	}
 	>.container{
+
 		>:first-child{
 			text-align: center;
+
 			>.col-md-6{
 				margin: 0 250px 60px;
 				margin-top: 30px;
@@ -239,6 +248,85 @@ html, body{
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+// Why we section
+#whywe{
+	height: 705px;
+	background-color: #ecf4fc;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	>.container{
+		>:first-child{
+			height: 171px;
+			>.col-md-12{
+				>div{
+					margin: 0 250px 60px;
+					text-align: center;
+					>h2{
+						font-size: 36px;
+						color: $mainColor;
+						text-transform: uppercase;
+						font-weight: bold;
+					}
+					>p{
+						font-size: 16px;
+						color: #666;
+						line-height: 26px;
+					}
+				}
+			}
+		}
+		>:last-child{
+			height: 464px;
+			>.col-md-8{
+				>.col-md-6{
+					margin-bottom: 30px;
+					transition: all .5s ease;
+					>.media{
+						text-align: center;
+						>.service-icon{
+							width: 50px;
+							height: 50px;
+							background-color: $mainColor;
+							border-radius: 2px;
+							margin-left: 160px;
+							>i{
+								font-size: 18px;
+								color: white;
+								margin-top: 15px;
+							}
+						}
+						>.service-body{
+							>h2{
+								text-transform: uppercase;
+								font-size: 18px;
+								margin-top: 20px;
+								margin-bottom: 15px;
+								font-weight: 600;
+								cursor: pointer;
+							}
+							>p{
+								font-size: 16px;
+								color: #666;
+								line-height: 26px;
+							}
+						}
+					}
+				}
+				>.col-md-6:hover{
+					>.media{
+						>.service-icon{
+							background-color: black;
+						}
+					}
+				}
+			}
+			>.col-md-4{
+
 			}
 		}
 	}
