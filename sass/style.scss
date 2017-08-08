@@ -33,6 +33,8 @@ html, body{
 	}
 }
 
+
+// Menu section
 #menu{
 	>.container{
 		height: 95px;
@@ -58,6 +60,183 @@ html, body{
 					}
 					>a:hover{
 						color: $mainColor;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+// About us section
+#aboutus{
+	>.container{
+		height: 630px;
+		>:first-child{
+			text-align: center;
+			>p{
+				font-size: 36px;
+				text-transform: uppercase;
+				color: #1fa7ec;
+				font-weight: bold;
+			}
+		}
+		>:nth-child(2){
+			>div{
+				margin: 0 250px 25px;
+				text-align: center;
+				>p{
+				font-size: 16px;
+				line-height: 26px;
+				color: #666;
+				}
+			}
+		}
+		>:nth-child(3){
+			text-align: center;
+			>button{
+				width: 142px;
+				height: 45px;
+				border-radius: 3px;
+				border-style: none;
+				color: white;
+				font-size: 16px;
+				background-color: #1fa7ec;
+				margin-right: 5px;
+			}
+			>:last-child{
+				background-color: #212836;
+			}
+		}
+		>:last-child{
+			>:first-child{
+				margin-top: 20px;
+			}
+			>:last-child{
+				>h3{
+					font-size: 18px;
+					font-weight: 600;
+				}
+				>p{
+					font-size: 16px;
+					color: #666;
+					line-height: 26px;
+					margin-bottom: 15px;
+				}
+				>div{
+					margin-bottom: 10px;
+					i{
+						color: #1fa7ec;
+						font-size: 16px;
+					}
+					p{
+						display: inline-block;
+						font-size: 16px;
+						color: #666;
+						line-height: 26px;
+						margin-left: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Service section
+
+#service{
+	background-image: url('../img/servicebg.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	background-attachment: fixed;
+	height: 765px;
+	>.overlay{
+		background-color: rgba(255, 255, 255, 0.9);
+		height: 100%;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	>.container{
+		>:first-child{
+			text-align: center;
+			>.col-md-6{
+				margin: 0 250px 60px;
+				margin-top: 30px;
+				>div{
+					margin-left: 85px;
+					text-align: center;
+					>h1{
+						text-transform: uppercase;
+						color: $mainColor;
+						font-weight: bold;
+						font-size: 36px;
+					}
+					>p{
+						font-size: 16px;
+						color: #666;
+						line-height: 26px;
+					}
+				}
+			}
+		}
+		>:last-child{
+			>.service-item{
+				>.inner{
+					margin-bottom: 30px;
+					padding: 15px;
+					transition: all .5s ease;
+					>.media{
+						text-align: center;
+						>.service-icon{
+							width: 50px;
+							height: 50px;
+							background-color: $mainColor;
+							border-radius: 2px;
+							margin-left: 160px;
+							>i{
+								font-size: 18px;
+								color: white;
+								margin-top: 15px;
+							}
+						}
+						>.service-body{
+							>h2{
+								text-transform: uppercase;
+								font-size: 18px;
+								margin-top: 20px;
+								margin-bottom: 15px;
+								font-weight: 600;
+								cursor: pointer;
+							}
+							>p{
+								font-size: 16px;
+								color: #666;
+								line-height: 26px;
+							}
+						}
+					}
+				}
+				>.inner:hover{
+					background-color: $mainColor;
+					color: white;
+					>.media{
+						>.service-icon{
+							background-color: white;
+							>i{
+								color: $mainColor;
+							}
+						}
+						>.service-body{
+							>h2{
+								color: white;
+							}
+							>p{
+								color: white;
+							}
+						}
 					}
 				}
 			}

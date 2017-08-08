@@ -37,4 +37,125 @@ html, body {
       #menu > .container > .row > .col-md-8 > .menu > a:hover {
         color: #1FA7EC; }
 
+#aboutus > .container {
+  height: 630px; }
+  #aboutus > .container > :first-child {
+    text-align: center; }
+    #aboutus > .container > :first-child > p {
+      font-size: 36px;
+      text-transform: uppercase;
+      color: #1fa7ec;
+      font-weight: bold; }
+  #aboutus > .container > :nth-child(2) > div {
+    margin: 0 250px 25px;
+    text-align: center; }
+    #aboutus > .container > :nth-child(2) > div > p {
+      font-size: 16px;
+      line-height: 26px;
+      color: #666; }
+  #aboutus > .container > :nth-child(3) {
+    text-align: center; }
+    #aboutus > .container > :nth-child(3) > button {
+      width: 142px;
+      height: 45px;
+      border-radius: 3px;
+      border-style: none;
+      color: white;
+      font-size: 16px;
+      background-color: #1fa7ec;
+      margin-right: 5px; }
+    #aboutus > .container > :nth-child(3) > :last-child {
+      background-color: #212836; }
+  #aboutus > .container > :last-child > :first-child {
+    margin-top: 20px; }
+  #aboutus > .container > :last-child > :last-child > h3 {
+    font-size: 18px;
+    font-weight: 600; }
+  #aboutus > .container > :last-child > :last-child > p {
+    font-size: 16px;
+    color: #666;
+    line-height: 26px;
+    margin-bottom: 15px; }
+  #aboutus > .container > :last-child > :last-child > div {
+    margin-bottom: 10px; }
+    #aboutus > .container > :last-child > :last-child > div i {
+      color: #1fa7ec;
+      font-size: 16px; }
+    #aboutus > .container > :last-child > :last-child > div p {
+      display: inline-block;
+      font-size: 16px;
+      color: #666;
+      line-height: 26px;
+      margin-left: 10px; }
+
+#service {
+  background-image: url("../img/servicebg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  height: 765px; }
+  #service > .overlay {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  #service > .container > :first-child {
+    text-align: center; }
+    #service > .container > :first-child > .col-md-6 {
+      margin: 0 250px 60px;
+      margin-top: 30px; }
+      #service > .container > :first-child > .col-md-6 > div {
+        margin-left: 85px;
+        text-align: center; }
+        #service > .container > :first-child > .col-md-6 > div > h1 {
+          text-transform: uppercase;
+          color: #1FA7EC;
+          font-weight: bold;
+          font-size: 36px; }
+        #service > .container > :first-child > .col-md-6 > div > p {
+          font-size: 16px;
+          color: #666;
+          line-height: 26px; }
+  #service > .container > :last-child > .service-item > .inner {
+    margin-bottom: 30px;
+    padding: 15px;
+    transition: all .5s ease; }
+    #service > .container > :last-child > .service-item > .inner > .media {
+      text-align: center; }
+      #service > .container > :last-child > .service-item > .inner > .media > .service-icon {
+        width: 50px;
+        height: 50px;
+        background-color: #1FA7EC;
+        border-radius: 2px;
+        margin-left: 160px; }
+        #service > .container > :last-child > .service-item > .inner > .media > .service-icon > i {
+          font-size: 18px;
+          color: white;
+          margin-top: 15px; }
+      #service > .container > :last-child > .service-item > .inner > .media > .service-body > h2 {
+        text-transform: uppercase;
+        font-size: 18px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        font-weight: 600;
+        cursor: pointer; }
+      #service > .container > :last-child > .service-item > .inner > .media > .service-body > p {
+        font-size: 16px;
+        color: #666;
+        line-height: 26px; }
+  #service > .container > :last-child > .service-item > .inner:hover {
+    background-color: #1FA7EC;
+    color: white; }
+    #service > .container > :last-child > .service-item > .inner:hover > .media > .service-icon {
+      background-color: white; }
+      #service > .container > :last-child > .service-item > .inner:hover > .media > .service-icon > i {
+        color: #1FA7EC; }
+    #service > .container > :last-child > .service-item > .inner:hover > .media > .service-body > h2 {
+      color: white; }
+    #service > .container > :last-child > .service-item > .inner:hover > .media > .service-body > p {
+      color: white; }
+
 /*# sourceMappingURL=style.css.map */
