@@ -238,4 +238,87 @@ html, body {
     text-transform: uppercase;
     font-weight: 600; }
 
+#projects {
+  height: 777px;
+  padding-bottom: 20px;
+  padding-top: 50px; }
+  #projects > .row {
+    height: 100%; }
+    #projects > .row > .container > :first-child > .col-md-12 > div {
+      margin: 0 250px 60px;
+      text-align: center; }
+      #projects > .row > .container > :first-child > .col-md-12 > div > h1 {
+        font-size: 36px;
+        color: #1FA7EC;
+        text-transform: uppercase;
+        font-weight: bold; }
+      #projects > .row > .container > :first-child > .col-md-12 > div > p {
+        font-size: 16px;
+        color: #666;
+        line-height: 26px; }
+    #projects > .row > .container > :last-child > .col-md-3 > .item {
+      margin-bottom: 30px;
+      overflow: hidden;
+      position: relative;
+      transition: all 0.4s ease-in-out 0s;
+      border-radius: 2px; }
+      #projects > .row > .container > :last-child > .col-md-3 > .item > .project-image {
+        position: relative; }
+        #projects > .row > .container > :last-child > .col-md-3 > .item > .project-image > img {
+          width: 100%; }
+        #projects > .row > .container > :last-child > .col-md-3 > .item > .project-image > a {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background-color: rgba(31, 167, 236, 0.7);
+          visibility: hidden;
+          opacity: 0;
+          transform: scale(5);
+          transition: all 0.5s ease-out;
+          text-decoration: none;
+          color: #464646; }
+          #projects > .row > .container > :last-child > .col-md-3 > .item > .project-image > a > i {
+            background: #fff none repeat scroll 0 0;
+            border-radius: 100%;
+            color: #1FA7EC;
+            height: 50px;
+            left: 0;
+            line-height: 50px;
+            margin: 0 auto;
+            position: absolute;
+            right: 0;
+            top: 39%;
+            text-align: center;
+            width: 50px;
+            transition: all 0.5s ease-out; }
+      #projects > .row > .container > :last-child > .col-md-3 > .item > .project-title {
+        background: #1fa7ec none repeat scroll 0 0;
+        transition: all 0.4s ease-in-out 0s;
+        width: 100%;
+        bottom: 0; }
+        #projects > .row > .container > :last-child > .col-md-3 > .item > .project-title > .text {
+          text-align: center; }
+          #projects > .row > .container > :last-child > .col-md-3 > .item > .project-title > .text > h3 {
+            color: #fff;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 12px 0;
+            text-transform: uppercase;
+            font-size: 16px; }
+            #projects > .row > .container > :last-child > .col-md-3 > .item > .project-title > .text > h3 a {
+              color: #fff;
+              text-decoration: none; }
+    #projects > .row > .container > :last-child > .col-md-3 > .item:hover > .project-image > a {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(-1%); }
+      #projects > .row > .container > :last-child > .col-md-3 > .item:hover > .project-image > a > i {
+        transform: scale(1); }
+      #projects > .row > .container > :last-child > .col-md-3 > .item:hover > .project-image > a > i:hover {
+        background-color: #1a1a1a; }
+    #projects > .row > .container > :last-child > .col-md-3 > .item:hover > .project-title {
+      background-color: #1a1a1a; }
+
 /*# sourceMappingURL=style.css.map */
