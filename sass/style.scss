@@ -484,3 +484,127 @@ html, body{
 		}
 	}
 }
+
+// Our price section
+#price{
+	height: 828px;
+	background-image: url(../img/servicebg.jpg);
+	background-attachment: fixed;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	z-index: 1;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	>.overlay{
+		background-color: rgba(255, 255, 255, 0.9);
+		height: 100%;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
+	>.container{
+		>:first-child{
+			>.col-md-12{
+				>div{
+					margin: 0 250px 60px;
+					text-align: center;
+					>h1{
+						font-size: 36px;
+						text-transform: uppercase;
+						color: $mainColor;
+						font-weight: bold;
+					}
+					>p{
+						font-size: 16px;
+						color: #666;
+						line-height: 26px;
+					}
+				}
+			}
+		}
+		>:last-child{
+			>.col-lg-3{
+				>.single-price{
+					background: #1fa7ec none repeat scroll 0 0;
+					margin-bottom: 30px;
+					padding-bottom: 36px;
+					text-align: center;
+					border-radius: 2px;
+					>.icon{
+						text-align: center;
+						padding: 20px 0;
+						>i{
+							border-radius: 2px;
+							color: #fff;
+							font-size: 40px;
+							height: 80px;
+							line-height: 80px;
+							width: 80px;
+							transition: all 0.5s ease-out;
+						}
+					}
+					>.heading{
+						background-color: #242424;
+						padding: 26px 0;
+						>h2{
+							color: #fff;
+							display: inline-block;
+							font-size: 22px;
+							margin-bottom: 15px;
+							text-transform: uppercase;
+							font-weight: bold;
+						}
+						>h1{
+							color: #fff;
+							margin-bottom: 0px;
+							margin-top: 0;
+							font-size: 22px;
+							font-weight: bold;
+							text-transform: capitalize;
+						}
+					}
+					>ul{
+						list-style: outside none none;
+						margin: 0;
+						padding: 0;
+						>li{
+							margin: 0;
+							color: #fff;
+							padding: 10px 0;
+							width: 100%;
+							font-size: 16px;
+							line-height: 26px;
+						}
+					}
+					.button{
+						margin-top: 30px;
+						>a{
+							background: #1fa7ec none repeat scroll 0 0;
+							border-radius: 2px;
+							color: #fff;
+							font-size: 14px;
+							font-weight: bold;
+							padding: 10px 20px;
+							text-transform: uppercase;
+							transition: all 0.5s ease-out;
+						}
+					}
+				}
+				>.single-price:hover{
+					>.icon{
+						>i{
+							background-color: #242424;
+						}
+					}
+					>.button{
+						>a{
+							background-color: #242424;
+						}
+					}
+				}
+			}
+		}
+	}
+}

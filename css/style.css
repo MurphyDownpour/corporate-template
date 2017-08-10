@@ -321,4 +321,94 @@ html, body {
     #projects > .row > .container > :last-child > .col-md-3 > .item:hover > .project-title {
       background-color: #1a1a1a; }
 
+#price {
+  height: 828px;
+  background-image: url(../img/servicebg.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 50px;
+  padding-top: 50px; }
+  #price > .overlay {
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+  #price > .container > :first-child > .col-md-12 > div {
+    margin: 0 250px 60px;
+    text-align: center; }
+    #price > .container > :first-child > .col-md-12 > div > h1 {
+      font-size: 36px;
+      text-transform: uppercase;
+      color: #1FA7EC;
+      font-weight: bold; }
+    #price > .container > :first-child > .col-md-12 > div > p {
+      font-size: 16px;
+      color: #666;
+      line-height: 26px; }
+  #price > .container > :last-child > .col-lg-3 > .single-price {
+    background: #1fa7ec none repeat scroll 0 0;
+    margin-bottom: 30px;
+    padding-bottom: 36px;
+    text-align: center;
+    border-radius: 2px; }
+    #price > .container > :last-child > .col-lg-3 > .single-price > .icon {
+      text-align: center;
+      padding: 20px 0; }
+      #price > .container > :last-child > .col-lg-3 > .single-price > .icon > i {
+        border-radius: 2px;
+        color: #fff;
+        font-size: 40px;
+        height: 80px;
+        line-height: 80px;
+        width: 80px;
+        transition: all 0.5s ease-out; }
+    #price > .container > :last-child > .col-lg-3 > .single-price > .heading {
+      background-color: #242424;
+      padding: 26px 0; }
+      #price > .container > :last-child > .col-lg-3 > .single-price > .heading > h2 {
+        color: #fff;
+        display: inline-block;
+        font-size: 22px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-weight: bold; }
+      #price > .container > :last-child > .col-lg-3 > .single-price > .heading > h1 {
+        color: #fff;
+        margin-bottom: 0px;
+        margin-top: 0;
+        font-size: 22px;
+        font-weight: bold;
+        text-transform: capitalize; }
+    #price > .container > :last-child > .col-lg-3 > .single-price > ul {
+      list-style: outside none none;
+      margin: 0;
+      padding: 0; }
+      #price > .container > :last-child > .col-lg-3 > .single-price > ul > li {
+        margin: 0;
+        color: #fff;
+        padding: 10px 0;
+        width: 100%;
+        font-size: 16px;
+        line-height: 26px; }
+    #price > .container > :last-child > .col-lg-3 > .single-price .button {
+      margin-top: 30px; }
+      #price > .container > :last-child > .col-lg-3 > .single-price .button > a {
+        background: #1fa7ec none repeat scroll 0 0;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        transition: all 0.5s ease-out; }
+  #price > .container > :last-child > .col-lg-3 > .single-price:hover > .icon > i {
+    background-color: #242424; }
+  #price > .container > :last-child > .col-lg-3 > .single-price:hover > .button > a {
+    background-color: #242424; }
+
 /*# sourceMappingURL=style.css.map */
