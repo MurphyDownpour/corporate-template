@@ -655,3 +655,80 @@ html, body{
 		}
 	}
 }
+
+// Team section
+#team{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	height: 678px;
+	>.container{
+		>:first-child{
+			>.col-md-12{
+				>div{
+					margin: 0 250px 60px;
+					text-align: center;
+					>h1{
+						font-size: 36px;
+						text-transform: uppercase;
+						color: $mainColor;
+						font-weight: bold;
+					}
+					>p{
+						font-size: 16px;
+						color: #666;
+						line-height: 26px;
+					}
+				}
+			}
+		}
+		>:last-child{
+			>.col-lg-3{
+				>.team-member{
+					margin-bottom: 30px;
+					overflow: hidden;
+					padding-bottom: 20px;
+					position: relative;
+					text-align: center;
+					border-radius: 2px;
+					>img{
+						width: 100%;
+						border-bottom: 4px solid $mainColor;
+						height: auto;
+						max-width: 100%;
+					}
+					>h2{
+						font-size: 18px;
+						font-weight: bold;
+						margin: 20px 0;
+						text-transform: uppercase;
+					}
+					>h3{
+						font-size: 14px;
+						text-transform: capitalize;
+						color: #666;
+						font-weight: 600;
+					}
+					>ul{
+						list-style: outside none none;
+						margin: 0;
+						padding: 0;
+						>li{
+							padding: 0 10px;
+							background: $mainColor;
+							border-radius: 2px;
+							display: inline-block;
+							>a{
+								transition: all 0.5s ease-out;
+								text-decoration: none;
+								color: #464646;
+								>i{
+									color: #fff;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

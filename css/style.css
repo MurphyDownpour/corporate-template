@@ -442,4 +442,58 @@ html, body {
     #contact > .container > .row > .col-md-4 > div > a:hover {
       background-color: black; }
 
+#team {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 678px; }
+  #team > .container > :first-child > .col-md-12 > div {
+    margin: 0 250px 60px;
+    text-align: center; }
+    #team > .container > :first-child > .col-md-12 > div > h1 {
+      font-size: 36px;
+      text-transform: uppercase;
+      color: #1FA7EC;
+      font-weight: bold; }
+    #team > .container > :first-child > .col-md-12 > div > p {
+      font-size: 16px;
+      color: #666;
+      line-height: 26px; }
+  #team > .container > :last-child > .col-lg-3 > .team-member {
+    margin-bottom: 30px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 2px; }
+    #team > .container > :last-child > .col-lg-3 > .team-member > img {
+      width: 100%;
+      border-bottom: 4px solid #1FA7EC;
+      height: auto;
+      max-width: 100%; }
+    #team > .container > :last-child > .col-lg-3 > .team-member > h2 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 20px 0;
+      text-transform: uppercase; }
+    #team > .container > :last-child > .col-lg-3 > .team-member > h3 {
+      font-size: 14px;
+      text-transform: capitalize;
+      color: #666;
+      font-weight: 600; }
+    #team > .container > :last-child > .col-lg-3 > .team-member > ul {
+      list-style: outside none none;
+      margin: 0;
+      padding: 0; }
+      #team > .container > :last-child > .col-lg-3 > .team-member > ul > li {
+        padding: 0 10px;
+        background: #1FA7EC;
+        border-radius: 2px;
+        display: inline-block; }
+        #team > .container > :last-child > .col-lg-3 > .team-member > ul > li > a {
+          transition: all 0.5s ease-out;
+          text-decoration: none;
+          color: #464646; }
+          #team > .container > :last-child > .col-lg-3 > .team-member > ul > li > a > i {
+            color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
