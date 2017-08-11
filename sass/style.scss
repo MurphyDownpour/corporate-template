@@ -732,3 +732,63 @@ html, body{
 		}
 	}
 }
+
+// Questions section
+#questions{
+	height: 752px;
+	background-color: #2a2d33;
+	padding: 50px 0;
+	color: #fff;
+	>.container{
+		>.row{
+			>:first-child{
+				>.title{
+					margin-bottom: 40px;
+					>h2{
+						font-size: 22px;
+						text-transform: uppercase;
+						font-weight: 600;
+						margin-bottom: 20px;
+						margin-top: 0;
+					}
+					>p{
+						margin: 0 0 20px;
+						font-size: 16px;
+						font-weight: 400;
+						line-height: 26px;
+					}
+				}
+				>.panel-group{
+					margin-bottom: 20px;
+					>:nth-child(1){
+						>.panel-heading{
+							background: #454c59;
+							padding: 0;
+							border-radius: 2px;
+							border-bottom: 0;
+							>.panel-title{
+								margin-top: 0;
+								margin-bottom: 0;
+								font-size: 16px;
+								color: inherit;
+								font-weight: 600;
+								margin: 0 0 20px;
+								>a{
+									color: #fff;
+									display: inline-block;
+									width: 100%;
+									padding: 10px 20px;
+									border-radius: 2px;
+									text-decoration: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			>:last-child{
+
+			}
+		}
+	}
+}
