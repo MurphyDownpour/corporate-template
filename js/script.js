@@ -34,3 +34,9 @@ $({numberValue: awardsNumber}).animate({numberValue: 260}, {
         $('.awards').text(Math.ceil(this.numberValue)); 
     }
 });
+
+
+/***********************/
+$(".panel").click(function(event) {
+    
+});

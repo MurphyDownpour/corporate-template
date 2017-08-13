@@ -760,26 +760,47 @@ html, body{
 				}
 				>.panel-group{
 					margin-bottom: 20px;
-					>:nth-child(1){
+					>.panel{
+						border-radius: 5px;
+						border-style: none;
 						>.panel-heading{
 							background: #454c59;
 							padding: 0;
 							border-radius: 2px;
-							border-bottom: 0;
 							>.panel-title{
 								margin-top: 0;
 								margin-bottom: 0;
 								font-size: 16px;
 								color: inherit;
 								font-weight: 600;
-								margin: 0 0 20px;
 								>a{
-									color: #fff;
-									display: inline-block;
-									width: 100%;
+									text-decoration: none;
 									padding: 10px 20px;
 									border-radius: 2px;
-									text-decoration: none;
+									color: #fff;
+									width: 100%;
+									display: inline-block;
+								}
+								>a::before{
+									float: right !important;
+									font-family: FontAwesome;
+									content: "\f056";
+									padding-right: 5px;
+								}
+								>a.collapsed::before{
+									float: right !important;
+									content: "\f055";
+								}
+							}
+						}
+						>.panel-collapse{
+							>.panel-body{
+								padding: 15px;
+								background-color: #2A2D33;
+								>p{
+									margin: 0 0 20px;
+									font-size: 16px;
+									line-height: 26px;
 								}
 							}
 						}
@@ -787,7 +808,13 @@ html, body{
 				}
 			}
 			>:last-child{
-
+				>div{
+					width: 100%;
+					display: inline-block;
+					>img{
+						width: 100%;
+					}
+				}
 			}
 		}
 	}
