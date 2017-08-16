@@ -739,4 +739,43 @@ html, body {
         #news > .container > :last-child > .col-lg-4 > .media > .single-post > .media-body > .single-post-text > a:hover {
           background-color: #131313; }
 
+#subscribe {
+  background: #1fa7ec none repeat scroll 0 0;
+  padding: 35px 0;
+  height: 160px; }
+  #subscribe > .container > .row > :first-child > .newsletter-left > h1 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase; }
+  #subscribe > .container > .row > :first-child > .newsletter-left > p {
+    color: #fff;
+    margin-bottom: 0;
+    margin: 0 0 20px;
+    font-size: 16px;
+    line-height: 26px; }
+  #subscribe > .container > .row > :last-child > .newsletter-right {
+    float: right;
+    margin-top: 8px; }
+    #subscribe > .container > .row > :last-child > .newsletter-right > form > :first-child {
+      background: #fafafa none repeat scroll 0 0;
+      border: 1px solid #fafafa;
+      border-radius: 3px;
+      padding: 10px 20px;
+      color: #a5a5a5;
+      text-transform: capitalize; }
+    #subscribe > .container > .row > :last-child > .newsletter-right > form > :last-child {
+      background: #ff7b00;
+      border: 1px solid #ff7b00;
+      color: #fff;
+      text-transform: uppercase;
+      padding: 10px 25px;
+      border-radius: 3px;
+      transition: all 0.8s ease; }
+    #subscribe > .container > .row > :last-child > .newsletter-right > form > :last-child:hover {
+      background-color: #fff;
+      color: black;
+      border-color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
