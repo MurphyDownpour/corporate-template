@@ -758,24 +758,186 @@ html, body {
   #subscribe > .container > .row > :last-child > .newsletter-right {
     float: right;
     margin-top: 8px; }
-    #subscribe > .container > .row > :last-child > .newsletter-right > form > :first-child {
-      background: #fafafa none repeat scroll 0 0;
-      border: 1px solid #fafafa;
-      border-radius: 3px;
-      padding: 10px 20px;
-      color: #a5a5a5;
-      text-transform: capitalize; }
-    #subscribe > .container > .row > :last-child > .newsletter-right > form > :last-child {
-      background: #ff7b00;
-      border: 1px solid #ff7b00;
+    #subscribe > .container > .row > :last-child > .newsletter-right > form {
+      margin-top: 15px; }
+      #subscribe > .container > .row > :last-child > .newsletter-right > form > :first-child {
+        background: #fafafa none repeat scroll 0 0;
+        border: 1px solid #fafafa;
+        border-radius: 3px;
+        padding: 10px 20px;
+        color: #a5a5a5;
+        text-transform: capitalize; }
+      #subscribe > .container > .row > :last-child > .newsletter-right > form > :last-child {
+        background: #ff7b00;
+        border: 1px solid #ff7b00;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px 25px;
+        border-radius: 3px;
+        transition: all 0.8s ease; }
+      #subscribe > .container > .row > :last-child > .newsletter-right > form > :last-child:hover {
+        background-color: #fff;
+        color: black;
+        border-color: #fff; }
+
+#footer {
+  height: 504px; }
+  #footer > .footer-top {
+    background: #242424 none repeat scroll 0 0;
+    padding: 50px 0;
+    height: 450px; }
+    #footer > .footer-top > .container > .row .widget-one > h2 {
       color: #fff;
+      font-size: 20px;
+      margin-bottom: 20px;
+      position: relative;
       text-transform: uppercase;
-      padding: 10px 25px;
-      border-radius: 3px;
-      transition: all 0.8s ease; }
-    #subscribe > .container > .row > :last-child > .newsletter-right > form > :last-child:hover {
-      background-color: #fff;
-      color: black;
-      border-color: #fff; }
+      padding-bottom: 10px;
+      font-weight: 600;
+      margin: 0 0 20px; }
+    #footer > .footer-top > .container > .row .widget-one > p {
+      color: #ccc;
+      margin: 0 0 20px;
+      font-size: 16px;
+      line-height: 26px; }
+    #footer > .footer-top > .container > .row .widget-one > ul {
+      margin-top: 15px;
+      list-style: outside none none;
+      margin: 0;
+      padding: 0; }
+      #footer > .footer-top > .container > .row .widget-one > ul > li > a {
+        transition: all 0.5s ease-out;
+        text-decoration: none;
+        color: #464646; }
+        #footer > .footer-top > .container > .row .widget-one > ul > li > a > i {
+          border: 1px solid #ccc;
+          color: #ccc;
+          float: left;
+          font-size: 18px;
+          height: 40px;
+          line-height: 40px;
+          margin-right: 10px;
+          text-align: center;
+          width: 40px;
+          transition: all 0.4s ease-in-out 0s;
+          border-radius: 2px; }
+        #footer > .footer-top > .container > .row .widget-one > ul > li > a > i:hover {
+          background-color: #1FA7EC;
+          border: 1px solid #1FA7EC;
+          color: #fff; }
+    #footer > .footer-top > .container > .row .widget-two > h2 {
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      font-weight: 600;
+      margin: 0 0 20px; }
+    #footer > .footer-top > .container > .row .widget-two > p {
+      color: #ccc;
+      margin: 0 0 20px;
+      font-size: 16px;
+      line-height: 26px; }
+    #footer > .footer-top > .container > .row .widget-two > form {
+      background: #525459 none repeat scroll 0 0;
+      margin-top: 35px;
+      position: relative; }
+      #footer > .footer-top > .container > .row .widget-two > form > :first-child {
+        background: #525459 none repeat scroll 0 0;
+        border: 1px solid #525459;
+        color: #fff;
+        padding: 10px 46px 10px 10px;
+        width: 100%;
+        text-transform: capitalize; }
+      #footer > .footer-top > .container > .row .widget-two > form > :last-child {
+        background: #1fa7ec none repeat scroll 0 0;
+        border: 1px solid #1fa7ec;
+        color: #fff;
+        top: 0;
+        padding: 10px;
+        position: absolute;
+        right: 0; }
+    #footer > .footer-top > .container > .row .widget-three > h2 {
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      font-weight: 600;
+      margin: 0 0 20px; }
+    #footer > .footer-top > .container > .row .widget-three > ul {
+      list-style: outside none none;
+      margin: 0;
+      padding: 0; }
+      #footer > .footer-top > .container > .row .widget-three > ul > li {
+        display: inline-block; }
+        #footer > .footer-top > .container > .row .widget-three > ul > li > a {
+          color: #fff;
+          display: inline-block;
+          padding: 5px 10px;
+          transition: all 0.4s ease-in-out 0s;
+          background: #1FA7EC;
+          margin: 0 2px 5px 0px;
+          text-transform: uppercase;
+          border-radius: 2px;
+          text-decoration: none; }
+        #footer > .footer-top > .container > .row .widget-three > ul > li > a:hover {
+          background: #525459; }
+    #footer > .footer-top > .container > .row .widget-four > h2 {
+      color: #fff;
+      font-size: 20px;
+      margin-bottom: 20px;
+      position: relative;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      font-weight: 600;
+      margin: 0 0 20px; }
+    #footer > .footer-top > .container > .row .widget-four > .contact-field {
+      display: inline-block;
+      width: 100%; }
+      #footer > .footer-top > .container > .row .widget-four > .contact-field > .single-input-field > input {
+        background: #525459 none repeat scroll 0 0;
+        border: 1px solid #525459;
+        border-radius: 2px;
+        color: #fff;
+        font-size: 16px;
+        margin-bottom: 10px;
+        padding: 10px;
+        text-transform: capitalize;
+        width: 100%; }
+      #footer > .footer-top > .container > .row .widget-four > .contact-field > .single-input-field > textarea {
+        height: 95px;
+        border-radius: 5px;
+        background: #525459 none repeat scroll 0 0;
+        border: 1px solid #525459;
+        color: #fff;
+        width: 100%;
+        padding: 10px; }
+      #footer > .footer-top > .container > .row .widget-four > .contact-field > .input-btn .single-input-btn {
+        background: #1FA7EC;
+        border: 1px solid #1fa7ec;
+        padding: 10px 112px;
+        color: #fff;
+        margin-top: 20px;
+        text-transform: uppercase;
+        border-radius: 2px;
+        font-size: 16px;
+        transition: all 0.4s ease-in-out 0s; }
+      #footer > .footer-top > .container > .row .widget-four > .contact-field > .input-btn .single-input-btn:hover {
+        background: #525459;
+        border: 1px solid #525459; }
+  #footer > .footer-bottom {
+    background: #282828 none repeat scroll 0 0;
+    padding: 15px 0;
+    height: 54px; }
+    #footer > .footer-bottom > .container > .row > .col-md-12 > div > p {
+      color: #ccc;
+      text-align: center;
+      margin: 0;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 26px; }
 
 /*# sourceMappingURL=style.css.map */
