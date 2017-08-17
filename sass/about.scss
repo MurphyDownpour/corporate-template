@@ -1,0 +1,143 @@
+$mainColor: #1FA7EC;
+$mainFont: 'Source Sans Pro', sans-serif;
+
+
+html, body{
+	font-family: $mainFont;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+// Support section. Social links and contacts
+#support{
+	>.row{
+		height: 45px;
+		background-color: $mainColor;
+		>.container{
+			>.col-md-6{
+				>i, p{
+					display: inline-block;
+					color: white;
+					margin-right: 10px;
+					margin-top: 12px;
+				}
+			}
+			>.col-md-4{
+				text-align: center;
+				>i{
+					color: white;
+					margin-left: 40px;
+					margin-top: 15px;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
+
+
+// Menu section
+#menu{
+	>.container{
+		height: 95px;
+		>.row{
+			height: 100%;
+			>.col-md-3{
+				>#logo{
+					padding: 28px 0;
+				}
+			}
+			>.col-md-8{
+				>.menu{
+					padding: 35px 0;
+					>a{
+						text-transform: uppercase;
+						text-decoration: none;
+						color: black;
+						font-weight: 700;
+						margin-right: 35px;
+						margin-left: 10px;
+						font-size: 15px;
+						transition: all .3s ease;
+					}
+					>a:hover{
+						color: $mainColor;
+					}
+				}
+			}
+		}
+	}
+}
+
+#pageHeader{
+	height: 128px;
+	background-image: url(../img/pg_hd.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	padding: 50px 0;
+	position: relative;
+	>.pageOverlay{
+		background-color: rgba(70, 70, 70, 0.70);
+		height: 100%;
+		position: absolute;
+		width: 100%;
+		top: 0;
+	}
+	>.container{
+		>.row{
+			>.col-sm-7{
+				>div{
+					>h1{
+						color: #fff;
+						font-size: 26px;
+						text-transform: uppercase;
+						margin-bottom: 0;
+						text-align: left;
+						font-weight: 600;
+						margin: 0;
+					}
+				}
+			}
+			>.col-sm-5{
+				>div{
+					>ul{
+						text-align: right;
+						list-style: outside none none;
+						margin: 0;
+						padding: 0;
+						>li{
+							display: inline-block;
+							position: relative;
+							padding: 0px 14px;
+							text-decoration: none;
+							font-size: 16px;
+						}
+						>:first-child{
+							>a{
+								color: #fff;
+								text-decoration: none;
+							}
+						}
+						>:last-child{
+							>a{
+								color: $mainColor;
+								text-decoration: none;
+							}
+						}
+						>:first-child::before{
+							border-right: 1px solid #fff;
+							content: "";
+							height: 60%;
+							position: absolute;
+							right: -2px;
+							top: 5px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
